@@ -1,0 +1,209 @@
+Week 11 - Tooling for Collaboration: Open-source software in practice
+Date: November 29, 2023
+Time: 17:00 (UTC) https://arewemeetingyet.com/Berlin/2023-11-29/18:00/week-11
+Duration: 90 min
+Call lead: Yo Yehudi
+Facilitator: Seun Elijah Olufemi
+    
+Join the Cohort Room
+Join the Zoom call: https://us02web.zoom.us/j/87456474439?pwd=c2I0YU8vSFUxNUdXZEpVeWErakkrdz09
+
+    
+Are you an Open Seeds participant but can't attend this call? The recording from this call will be updated on YouTube: https://www.youtube.com/c/OpenLifeSci/playlists
+
+This call is being recorded and transcribed!
+The video will be available on the YouTube channel (https://www.youtube.com/c/OpenLifeSci) in the next days
+Turn on your webcam if you don't mind sharing your face (or off if you do!)
+
+Breakout room: Speaking and Writing:
+Please edit your Zoom name (click on the three dots on the top right of your video) and add one of the following letters in front of your name:
+W for written reflection-based exercise in the main room
+S for Spoken Discussion Breakout Room This will help us assign you to the breakout room with the format of your choice
+If you are ok with both, please choose one for this week so that the hosts can assign you to a breakout room during the cohort call
+
+At the end of this week's cohort call, you will be able to:
+Apply good coding practices to your software
+Review code
+Identify package management for your software
+Make your software ready for open-source
+
+🌍 Roll call
+Introducing yourself
+Name / Project / social handles (twitter, GitHub, etc.) / _emoji mood _
+ Yo / OLS / 
+ Onabajo Monsurat/MolerHealth/@Onabajo3/🎊🎊
+Marlou  / CSR data / @marlouramaekers /☕
+ Irene / OLS / iramosp / 😃
+ Riva / Programming Historian / @rivaquiroga / ☕
+ Meli / MetaDocencia cohorts / @melibleq on Github / 🌺
+ 
+ Paz / OLS
+Ruth/ Oxford & BHKi /@Ruthnanje
+ Jolien  Scholten / Open-source handbook infrastructure
+ Mariana Gómez / CICESE / @MGomezN 🎊
+ Seun Olufemi/Bioinformatics Outreach Nigeria/@Seunolufemi9
+Fatma Omar / Identification and Prediction of Bacterial Pathogens Colonizing Yellowing Disease in Coastal Kenyan Coconuts: A Machine Learning Approach / Fatma366
+
+Icebreaker question
+What's something beautiful you encountered about nature or the world recently?
+ Yo / Fox in my garden 😍 :O
+  Marlou / the tiny bit of snow that fell last night
+  Paz / a spider lived outside the office for like 6 months or more. Despite looking very scary and being super big, I didn't kill her, so got to see how hard working she was 💝
+  
+ Meli / this docuseries is beautiful! https://www.youtube.com/watch?v=WYj-7IrjC4c Life in colour with David Attenborough +1
+ Riva / yesterday I learned the name of a dog I always see during the walk I usually take during the mornings
+Irene / many butterflies in my garden! 💝
+My one-year old standing without holding anything for the first time
+A beautiful documentary in stop-motion called Marcel the Shell with Shoes On
+
+🗣️ Welcome!
+[HOST] (5 min) [⏰ 5]
+
+Code of conduct and community participation guidelines https://openlifesci.org/code-of-conduct
+If you experience or witness unacceptable behaviour, or have any other concerns, please report it by contacting the organisers - Bérénice, Malvika, Yo, Paz and Emmy. (team@openlifesci.org).
+To report an issue involving one of the organisers, please email one of the members individually (berenice@we-are-ols.org, malvika@we-are-ols.org, yo@we-are-ols.org, emmy@we-are-ols.org, paz@we-are-ols.org).
+
+This call is being recorded and transcribed!
+Please turn your video off if you would prefer to be off video
+You can follow the transcriptions following the link on the top of the Zoom screen
+
+Breakout room: Speaking and Writing:
+Indicate by editing your name on Zoom and add
+W for written reflection-based exercise in based breakout room
+S for Spoken Discussion Breakout Room
+This will help us assign you to the breakout room with the format of your choice
+Even if you are ok with both, please choose one option for this call to help us assign you easily to one group.
+
+🖥 Talk: Open-source software in practice
+[Yo] (5 min) [⏰ 10]
+
+Presenter: Yo
+Contact / social:
+Slides: https://docs.google.com/presentation/d/e/2PACX-1vRQmPldM2vu5hoUX2FpdUKuSY8-krnsaqoLP_mg-H3OdGOiTLZO99Ey-1a_PAkhlsi09TzLiPgp__dc/pub
+
+🖥 Talk: Good Coding Practices
+[Irene] (15 min) [⏰ 25]
+
+Presenter: Mariana Gómez
+Contact / social: @MGomezN
+Slides: https://mgomezn.github.io/talk_openlifesci/
+
+Notes:
+ Refactoring: changing the code so it is easier to understand
+  
+ 
+
+Questions
+ Yo / I LOVE that you talk about considering WHO is going to use your code. So important and too rarely considered 
+  
+ 
+
+🖥 Talk: Code Review
+[Seun] (15 min) [⏰ 40]
+
+Presenter: Riva Quiroga
+Contact / social: rivaquiroga.cl / @rivaquiroga
+Slides: https://tinyurl.com/OLS-8-code-review 
+
+Notes:
+ Code review is a part of the process to ensure the quality of the code
+write test (to test the code)
+go through code review process: someone reads the codes to find bugs, but also advises on improving code
+  The code review process is social. That means that you should take into account that it has all the perks and all the downsides of sharing your work with others. Therefore, it's important to have a code of conduct so people know how to behave towards each other. It's also important to set expectations
+ The word 'review' has various meanings, so it's important to communicate clearly what you will review
+Code review is a way to transfer knowledge about a project to others
+Keep the code review manageable. Don't review everything at once (or only on big points). Otherwise people get overwhelmed and it's very difficult to adjust
+
+Questions
+ Yo / I loooooove the way you used fonts alone to convey that code review can be great or scary. Nice one! 
+ What  would you recommend someone who is shy to start making code reviews? 
+ anonymous peer review isn't really a thing in Open Source, but cons
+
+👥 Breakout discussion: Bug in a scientific tool
+[Seun] introduces, [Irene] makes breakouts (15 min) [⏰ 55]
+15 minutes, ~3/4 ppl per room
+
+Instructions for the room
+Think about a bug you've encountered in a scientific tool, either as a writer or a user. Was the software/code open, and if not, could openness have made a difference?
+
+Notes from breakout discussions
+Breakout Room 1 - Written/Spoken
+Names
+
+Notes
+
+Breakout Room 2 - Written/Spoken
+Names
+
+Notes
+
+Any insights/thoughts/comments to share from your breakout room?
+ 
+  
+ 
+
+
+🖥 Talk: Package Management
+[Seun] (15 min) [⏰ 70]
+
+Presenter: Ruth Nanjala
+Contact / social: @Ruthnanje
+Slides: SLIDES
+
+Notes:
+ 
+  
+ 
+
+Questions
+Could you describe what "root access" means? Thank you :) 
+Similar to admin privileges 
+Yo: I LOVE the comparison of a software package being like a portable tent. May I borrow that description for the future? ;) 
+Yeees!
+Again,  What would be main differences between conda environment and docker container? (using the bottle analogy?)
+ 
+
+
+🗣️ Closing
+[Yo] (5 min) [⏰ 85]
+
+Assignments
+* Mid -cohort survey: https://forms.gle/eFCJrajbqxQUnFdD7
+Have any questions?
+Add them below. We will respond to these on Slack and also share them via an email
+ 
+  
+ 
+
+
+Feedback about this call:
+What worked?
+ 
+  
+ 
+
+
+What didn't work?
+ My Zoom connection. I update the Zoom before joining the call, but didnt re-start computer, maybe that's why.
+  
+ 
+
+
+What would you change?
+ As a speaker, I was too optimistic about the content of my talk covered timely. It was too much for the 10min. Less jokes, more facts :P
+  WE LOVE JOKES;)
+ 
+
+
+What surprised you?
+ The nice and friendly voice of Yehudi 
+  The invitation for participate as speaker. It was an honor :)
+ 
+
+
+Reference: Mozilla Open leadership Framework, OLS
+Licence: CC BY 4.0, Open Seeds by OLS, 2023
+
+
+
+
